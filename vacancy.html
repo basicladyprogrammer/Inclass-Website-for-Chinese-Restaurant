@@ -1,0 +1,104 @@
+<html>
+    <body>
+        <p><span style="color: brown; font-weight:bold; font-style: italic; font-family:oblique; font-size:30;">Application for Employment</span></p>
+        <fieldset style="background-color: beige;">
+            <Legend><b><i>Personal Details</i></b></Legend>
+            <table>
+                <tr>
+                    <td>Surname</td>
+                    <td><input type="text" name="surname"></td>
+                </tr>
+                <tr>
+                    <td>Forename</td>
+                    <td><input type="text" name="forename"></td>
+                </tr>
+                <tr>
+                    <td>Title</td>
+                    <td><input type="text" name="title" style="align-items: right;"></td>
+                </tr>
+                <tr>
+                    <td>Address</td>
+                    <td><textarea name="address" id="address" cols="60" rows="5" style="align-self: center;"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="email" name="email"></td>
+                </tr>
+                <tr>
+                    <td>NIC</td>
+                    <td><input type="number" name="nic"></td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><input type="date" name="dob"></td>
+                </tr>
+                <tr>
+                    <td>Days Available</td>
+                    <td>
+                        <input type="checkbox" name="davailable" id="monday" value="Monday">
+                        <label for="monday">Monday</label> 
+                        <input type="checkbox" name="davailable" id="tuesday" value="Tuesday">
+                        <label for="tuesday">Tuesday</label>
+                        <input type="checkbox" name="davailable" id="wednesday" value="Wednesday">
+                        <label for="wednesday">Wednesday</label>
+                        <input type="checkbox" name="davailable" id="thursday" value="Thursday">
+                        <label for="thursday">Thursday</label>
+                        <input type="checkbox" name="davailable" id="friday" value="Friday">
+                        <label for="friday">Friday</label>
+                        <input type="checkbox" name="davailable" id="saturday" value="Saturday">
+                        <label for="saturday">Saturday</label>
+                        <input type="checkbox" name="davailable" id="sunday" value="Sunday">
+                        <label for="sunday">Sunday</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nationality</td>
+                    <td><input type="text" name="nationality"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color: beige;">
+            <legend><b><i>Education</i></b></legend>
+            <table>
+                <tr>
+                    <td>School/College</td>
+                    <td><input type="text" name="education" id="sclcoll"></td>
+                </tr>
+                <tr>
+                    <td>Qualification</td>
+                    <td><input type="text" name="education" id="qualification"></td>
+                </tr>
+                <tr>
+                    <td>Time Period</td>
+                    <td><input type="text" name="education" id="timeperiod"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color: beige;">
+            <legend><b><i>Declaration</i></b></legend>
+            <p>     I confirm you that the above information is complete and correct. False or misleading
+                information will give the employer there right to reject my application or to withdraw any
+                employment contract offered or employed, dismiss without notice.
+            </p>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" name="declaration" id="name"></td>
+                    <td>Date</td>
+                    <td><input type="date" name="declaration" id="date"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset style="background-color: beige;">
+            <legend><b><i>Add CV</i></b></legend>
+            <table>
+                <tr>
+                    <td><input type="file" id="file" name="cv"></td>
+                    <td><input type="submit" name="cv" id="submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+        <hr color="red" border="0">
+        <p style="text-align:center;font-weight: bold;" >Copyright &#169; 2018 Chinese Place, Sri Lanka | All rights Reserved 2018</p>
+    </body>
+</html>
